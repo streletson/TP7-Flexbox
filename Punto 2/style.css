@@ -1,0 +1,29 @@
+#contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 255, 106, 0.336);
+    height: 100vh;
+    width: 100vw;
+}
+.caja{
+    background-color: rgb(129, 0, 0);
+    width: 100px;
+    height: 100px;
+}
+@media (max-width:600px) {
+    #contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 255, 0.336);
+    height: 100vh;
+    width: 100vw;
+}
+.cajas{
+    background-color: darkred;
+    width: 10%;
+    height: 10%;
+}
+}

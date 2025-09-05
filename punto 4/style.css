@@ -1,0 +1,24 @@
+    /* Selector de hijo directo (>) */
+    div > p {
+      color: blue;
+    }
+
+    /* Selector de hermano adyacente (+) */
+    h2 + p {
+      color: green;
+    }
+
+    /* Selector de hermanos generales (~) */
+    h3 ~ p {
+      font-style: italic;
+    }
+
+    /* Selector de atributo */
+    input[type="text"] {
+      border: 2px solid red;
+    }
+
+    /* Selector :nth-child() */
+    ul li:nth-child(2) {
+      background-color: yellow;
+    }
